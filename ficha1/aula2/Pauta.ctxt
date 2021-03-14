@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Pauta
+comment1.params=
+comment1.target=Pauta()
+comment2.params=notas
+comment2.target=void\ setNotasTurma(int[][])
+comment3.params=
+comment3.target=int[][]\ getNotasTurma()
+numComments=4
