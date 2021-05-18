@@ -54,7 +54,7 @@ public void resolveTicket(String ident) throws TecnicoNaoExisteException{
 public Map<String,List<Ticket> ticketsPorTecnico(){
     Map<String,List<Ticket> ret = new LinkedHashMap<>();
 
-    for(Tecnico t : this.funcionarios){
+    for(Tecnico t : this.funcionarios.values()){
         List<Ticket> ticks = new List<>();
         for(Ticket ticket : this.ticketsResolvidos){
             if (ticket.getIdent().equals(t.getIndent())){
