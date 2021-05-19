@@ -19,7 +19,7 @@ public class PolyAsList{
         
         if (grau<=graus){
             for (int n=0;n<graus;n++){
-                if (n==grau){
+                if (n-1==grau){
                     double ad = this.polinomio.get(n); 
                     double teste = ad + coef; 
                     this.polinomio.set(n,teste); 
